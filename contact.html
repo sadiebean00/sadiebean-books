@@ -29,14 +29,46 @@
   <button class="btn btn-dark">Send Message</button>
 </form>
 
-<section class="newsletter py-5 text-center">
-  <h3>Subscribe to My Newsletter</h3>
-  <p>Get updates on new books and exclusive content!</p>
-  <form action="https://sadiebean.us12.list-manage.com/subscribe/post?u=9e43206801f8fa7b6cc767e30&amp;id=d78cae3666&amp;f_id=004b12e1f0" method="POST" target="_blank">
-    <input type="email" name="EMAIL" class="form-control d-inline" placeholder="Enter your email" required>
-    <button class="btn btn-dark" type="submit">Subscribe</button>
-  </form>
+<!-- Newsletter Section -->
+<section class="newsletter py-5 text-center" style="background:#f9f7f6; font-family: 'Helvetica Neue', Arial, sans-serif;">
+  <h2 style="color:#333; font-size:2rem; margin-bottom:0.5rem;">Subscribe to My Newsletter</h2>
+  <p style="color:#666; margin-bottom:1.5rem;">Get updates on new books, exclusive content, and cozy mystery adventures!</p>
+
+  <!-- Mailchimp Form -->
+  <div id="mc_embed_signup" style="max-width:500px; margin:auto; background:#fff; padding:20px; border-radius:10px; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+    <form action="https://sadiebean.us12.list-manage.com/subscribe/post?u=9e43206801f8fa7b6cc767e30&amp;id=d78cae3666&amp;f_id=004b12e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      
+      <div class="mc-field-group" style="margin-bottom:1rem;">
+        <label for="mce-EMAIL" style="display:block; text-align:left; margin-bottom:0.3rem; color:#555;">Email Address <span style="color:#e63946;">*</span></label>
+        <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required placeholder="you@example.com" style="width:100%; padding:10px; font-size:1rem; border:1px solid #ccc; border-radius:5px;">
+      </div>
+
+      <div hidden><input type="hidden" name="tags" value="8551075"></div>
+
+      <!-- Responses -->
+      <div id="mce-responses" class="clear" style="margin-bottom:1rem;">
+        <div class="response" id="mce-error-response" style="display:none; color:#e63946;"></div>
+        <div class="response" id="mce-success-response" style="display:none; color:#2a9d8f;"></div>
+      </div>
+
+      <!-- Anti-bot field -->
+      <div style="position:absolute; left:-5000px;" aria-hidden="true">
+        <input type="text" name="b_9e43206801f8fa7b6cc767e30_d78cae3666" tabindex="-1" value="">
+      </div>
+
+      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background:#2a9d8f; color:#fff; border:none; padding:12px 25px; font-size:1rem; border-radius:5px; cursor:pointer; transition:0.3s;">
+      
+      <p style="margin-top:10px; font-size:0.8rem; color:#999;">You’ll receive a welcome email after signing up.</p>
+    </form>
+  </div>
 </section>
+
+<!-- Optional Thank You Alert -->
+<script>
+document.querySelector('#mc-embedded-subscribe-form').addEventListener('submit', function() {
+  alert("Thank you! Check your inbox for a welcome email.");
+});
+</script>
 
 <script src="/js/navbar.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
