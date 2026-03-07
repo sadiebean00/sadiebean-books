@@ -1,0 +1,30 @@
+body { font-family:'Segoe UI', sans-serif; background:#fafafa; margin:0; padding:0; }
+
+/* Section spacing */
+.section { padding:60px 0; }
+.text-center { text-align:center; }
+
+/* Navbar */
+.navbar { box-shadow:0 3px 10px rgba(0,0,0,0.2); }
+.navbar-brand { font-weight:700; letter-spacing:1px; }
+.nav-link { font-weight:500; transition:0.3s; }
+.nav-link:hover, .nav-link.active { color:#f8d36a !important; }
+#navbar { opacity:0; animation:fadeIn 0.4s forwards; }
+@keyframes fadeIn { to { opacity:1; } }
+
+/* Card hover effects */
+.card-book, .card-blog { transition:0.3s; cursor:pointer; }
+.card-book:hover, .card-blog:hover { transform:translateY(-5px) scale(1.02); box-shadow:0 10px 20px rgba(0,0,0,0.2); }
+
+/* Buttons */
+.btn { border-radius:0; }
+
+/* Forms */
+form input, form textarea { border-radius:0; }
+
+/* Newsletter */
+.newsletter { background:#f3efe9; padding:60px 0; text-align:center; }
+.newsletter input[type="email"] { max-width:400px; display:inline-block; margin-right:10px; }
+
+/* Responsive */
+@media(max-width:768px){ .text-center h1{ font-size:2rem; } }
