@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "New Book Announcement",
+    "summary": "Exciting news about my upcoming cozy mystery series!",
+    "content": "After months of planning and outlining, I'm thrilled to announce that work has begun on a brand-new cozy mystery series. This is my debut novel, The Last Sip of English Breakfast. Readers can expect murder, mystery and the protagonist being our 15-year-old sleuth!",
+    "date": "2026-05-30"
+  },
+  {
+    "id": 2,
+    "title": "Writing Tips",
+    "summary": "How I create suspense and cozy vibes in my mysteries.",
+    "content": "One of my favourite techniques is layering small clues throughout a story while keeping the focus on the characters. Building atmosphere can be just as important as plotting the mystery itself. I have my own board that you would typically see in your favourite murder mystery shows!",
+    "date": "2026-05-20"
+  },
+  {
+    "id": 3,
+    "title": "Behind the Scenes",
+    "summary": "A peek into my writing process and inspiration.",
+    "content": "From handwritten notes to digital outlines, every book starts with a simple idea. Inspiration often comes from laces I've visited, conversations I've overheard, or mysteries I've always wanted to solve. When writing, I often listen to music from my favourite movies or shows to get me in the mood.",
+    "date": "2026-05-10"
+  }
+]
